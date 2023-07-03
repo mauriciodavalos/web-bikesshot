@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
-  to = "/:splat"
-  status = 200
-  force = true
+from = "/silicon-lube/"
+to = "/silicon-lube.html"
+status = 200
+force = true
