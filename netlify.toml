@@ -1,5 +1,6 @@
 [[redirects]]
 from = "/silicon-lube/"
 to = "/silicon-lube.html"
-status = 200
+status = 301
 force = true
+
