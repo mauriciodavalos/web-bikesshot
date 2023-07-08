@@ -13,6 +13,9 @@ body {
   max-width: 1100px;
   margin: 0 auto;
 }
+h2 {
+  font-size: large;
+}
 img {
   width: 100%;
   display: block;
@@ -79,14 +82,16 @@ img {
 }
 .product-rating {
   color: #ffc107;
+  font-size: 24px; /* adjust as needed */
 }
+
 .product-rating span {
-  font-weight: 600;
+  font-weight: 800;
   color: #252525;
 }
 .product-price {
   margin: 1rem 0;
-  font-size: 1rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 .product-price span {

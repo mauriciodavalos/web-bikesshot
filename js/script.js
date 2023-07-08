@@ -99,6 +99,35 @@ function checkFlexGap() {
 }
 checkFlexGap();
 
+//TODO probablemente se quite
+const imgs = document.querySelectorAll('.img-select a');
+const imgBtns = [...imgs];
+let imgId = 1;
+
+imgBtns.forEach((imgItem) => {
+  imgItem.addEventListener('click', (event) => {
+    event.preventDefault();
+    imgId = imgItem.dataset.id;
+    slideImage();
+  });
+});
+
+function slideImage() {
+  const firstChildImage = document.querySelector(
+    '.img-showcase img:first-child'
+  );
+
+  // If there is no image, don't do anything.
+  if (!firstChildImage) return;
+
+  const displayWidth = firstChildImage.clientWidth;
+  document.querySelector('.img-showcase').style.transform = `translateX(${
+    -(imgId - 1) * displayWidth
+  }px)`;
+}
+
+window.addEventListener('resize', slideImage);
+
 // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
 /*
@@ -151,28 +180,3 @@ checkFlexGap();
   }
 }
 */
-
-//TODO probablemente se quite
-const imgs = document.querySelectorAll('.img-select a');
-const imgBtns = [...imgs];
-let imgId = 1;
-
-imgBtns.forEach((imgItem) => {
-  imgItem.addEventListener('click', (event) => {
-    event.preventDefault();
-    imgId = imgItem.dataset.id;
-    slideImage();
-  });
-});
-
-function slideImage() {
-  const displayWidth = document.querySelector(
-    '.img-showcase img:first-child'
-  ).clientWidth;
-
-  document.querySelector('.img-showcase').style.transform = `translateX(${
-    -(imgId - 1) * displayWidth
-  }px)`;
-}
-
-window.addEventListener('resize', slideImage);
