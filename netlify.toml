@@ -18,6 +18,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/chain-wax-cera-lubricante-de-cadena-para-terrenos-secos/"
+to = "/chain-wax.html"
+status = 301
+force = true
+
+[[redirects]]
 from = "/chain-lube/"
 to = "/chain-lube.html"
 status = 301
@@ -41,3 +47,20 @@ to = "/lubricante-multi-usos.html"
 status = 301
 force = true
 
+[[redirects]]
+from = "/para-motocicletas/"
+to = "/index.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/para-bicicletas-profesionales/"
+to = "/index.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/contacto/"
+to = "/index.html"
+status = 301
+force = true
