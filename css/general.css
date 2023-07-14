@@ -332,3 +332,32 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 10000;
+}
+
+#cookie-banner p {
+  margin: 0;
+  padding: 0 20px;
+}
+
+#accept-cookies {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  cursor: pointer;
+}
