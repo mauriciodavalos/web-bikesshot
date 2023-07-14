@@ -181,6 +181,7 @@ window.addEventListener('resize', slideImage);
 }
 */
 
+//Cookies banner behaviour
 window.onload = function () {
   var banner = document.getElementById('cookie-banner');
   var acceptButton = document.getElementById('accept-cookies');
