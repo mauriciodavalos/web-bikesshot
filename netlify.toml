@@ -1,12 +1,43 @@
-[[redirects]]
-from = "/silicon-lube/"
-to = "/silicon-lube.html"
-status = 301
-force = true
-
 
 [[redirects]]
 from = "/kits-y-paquetes-bikes-shot/"
 to = "/index.html#promociones"
 status = 301
 force = true
+
+[[redirects]]
+from = "/silicon-lube/"
+to = "/silicon-lube.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/chain-wax/"
+to = "/chain-wax.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/chain-lube/"
+to = "/chain-lube.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/bio-desengrasante/"
+to = "/bio-desengrasante.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/brake-cleaner/"
+to = "/brake-cleaner.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/lubricante-multi-usos/"
+to = "/lubricante-multi-usos.html"
+status = 301
+force = true
+
