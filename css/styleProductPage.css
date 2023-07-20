@@ -136,7 +136,6 @@ img {
 }
 .purchase-info input,
 .purchase-info .btn {
-  border: 1.5px solid #4b0404;
   border-radius: 25px;
   text-align: center;
   padding: 0.45rem 0.8rem;

@@ -1,3 +1,6 @@
+# This is the Netlify.toml file for the Bikes Shot website.
+# The redirects were added on 2023-07-19 to ensure that the SEO for the pages
+# is not affected when the pages are moved to new URLs.
 
 [[redirects]]
 from = "/kits-y-paquetes-bikes-shot/"
@@ -62,5 +65,17 @@ force = true
 [[redirects]]
 from = "/contacto/"
 to = "/index.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/motocicletas/lubricantes-y-aceites-para-cadena-de-motocicleta/"
+to = "/lubricantes-y-aceites-para-cadena-de-motocicleta.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/bicicletas/lubricantes-para-bicicletas-de-montana-y-ruta/"
+to = "/lubricantes-para-bicicletas-de-montana-y-ruta.html"
 status = 301
 force = true
