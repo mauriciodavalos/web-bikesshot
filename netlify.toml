@@ -76,6 +76,6 @@ force = true
 
 [[redirects]]
 from = "/bicicletas/lubricantes-para-bicicletas-de-montana-y-ruta/"
-to = "/lubricantes-para-bicicletas-de-montana-y-ruta.html"
+to = "/lubricantes-para-bicicletas-de-montana.html"
 status = 301
 force = true
