@@ -79,3 +79,15 @@ from = "/bicicletas/lubricantes-para-bicicletas-de-montana-y-ruta/"
 to = "/lubricantes-para-bicicletas-de-montana.html"
 status = 301
 force = true
+
+[[redirects]]
+from = "/inicio/"
+to = "/index.html"
+status = 301
+force = true
+
+[[redirects]]
+from = "/nuestros-productos/"
+to = "/index.html"
+status = 301
+force = true
