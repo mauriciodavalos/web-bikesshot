@@ -154,7 +154,7 @@ img {
   background: #256eff;
 }
 .purchase-info .btn:last-of-type {
-  background: #f64749;
+  background: red;
 }
 .purchase-info .btn:hover {
   opacity: 0.9;
