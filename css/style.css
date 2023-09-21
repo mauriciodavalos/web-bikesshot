@@ -232,14 +232,14 @@
   /* 60% of parent's width */
   padding-bottom: 60%;
 
-  background-color: #202020;
+  background-color: #fa0000;
   z-index: -2;
 }
 
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: #fae5d3;
+  background-color: #000000;
   z-index: -1;
 }
 
